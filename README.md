@@ -14,7 +14,7 @@ su -c /data/adb/magisk/busybox wget https://github.com/xDoge26/proot-setup/raw/m
 ```
 ## 2. Install xfce
 ```
-wget https://github.com/xDoge26/proot-setup/raw/main/xfce4.sh ; bash xfce4.sh ; rm xfce4.sh
+wget https://github.com/mikamito998/proot-setup/raw/main/xfce4.sh ; bash xfce4.sh ; rm xfce4.sh
 ```
 ## 3. Install box86/box64
 ```
