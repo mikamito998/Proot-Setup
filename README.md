@@ -21,7 +21,7 @@ wget https://github.com/mikamito998/proot-setup/raw/main/xfce4.sh ; bash xfce4.s
 ## 3. Install box86/box64
 #### Stable 8.0.2
 ```
-wget https://github.com/xDoge26/proot-setup/raw/main/box86_64.sh ; bash box86_64.sh ; rm box86_64.sh
+wget https://github.com/mikamito998/proot-setup/raw/main/box86_64.sh ; bash box86_64.sh ; rm box86_64.sh
 ```
 #### Development 8.17
 ```
