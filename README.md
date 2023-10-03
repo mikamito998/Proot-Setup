@@ -25,7 +25,7 @@ wget https://github.com/mikamito998/proot-setup/raw/main/box86_64.sh ; bash box8
 ```
 #### Development 8.17
 ```
-wget https://github.com/mikamito998/proot-setup/raw/main/box86_64.sh ; bash box86_64.sh ; rm box86_64.sh
+wget https://github.com/mikamito998/proot-setup/raw/main/box64.sh ; bash box64.sh ; rm box64.sh
 ```
 ## 4. VirGL
 #### 4.1 VirGL ES
