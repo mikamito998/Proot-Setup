@@ -19,7 +19,7 @@ yes | apt update ; yes | apt upgrade ; yes | apt install sudo nano wget git zip 
 wget https://github.com/mikamito998/proot-setup/raw/main/xfce4.sh ; bash xfce4.sh ; rm xfce4.sh
 ```
 ## 3. Install box86/box64
-#### Stable 8.0.2
+#### Stable 8.0.2 (Recommended)
 ```
 wget https://github.com/mikamito998/proot-setup/raw/main/box86_64.sh ; bash box86_64.sh ; rm box86_64.sh
 ```
