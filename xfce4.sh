@@ -2,7 +2,7 @@
 set -e
 
 apt update && apt upgrade -y
-apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra
+apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server
 apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
 apt clean && apt autoremove -y
 
@@ -15,7 +15,7 @@ xrdb $HOME/.Xresources
 taskset -c 4-7 startxfce4' > ~/.vnc/xstartup
 
 echo 'taskset -c 4-7 termux-x11 :1 -xstartup startxfce4 2> /dev/null &' > /usr/local/bin/x11
-echo 'vncserver :1 -name remote-desktop -geometry 1366x768 -localhost no' > /usr/local/bin/vnc-start
+echo 'vncserver :1 -name remote-desktop -geometry 1280x720 -localhost no' > /usr/local/bin/vnc-start
 echo 'vncserver -kill' > /usr/local/bin/vnc-stop
 
 chmod +x ~/.vnc/xstartup
