@@ -8,7 +8,7 @@ apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
 apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
-# Fix
+
 apt clean && apt autoremove -y
 apt --fix-broken install
 apt update && apt upgrade -y
