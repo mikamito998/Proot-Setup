@@ -15,8 +15,7 @@ su -c /data/adb/magisk/busybox wget https://github.com/xDoge26/proot-setup/raw/m
 ```
 ## 2. Install xfce
 ```
-yes | apt update ; yes | apt upgrade ; yes | apt install sudo nano wget git zip unzip
-wget https://github.com/mikamito998/proot-setup/raw/main/xfce4.sh ; bash xfce4.sh ; rm xfce4.sh
+apt update -y; apt upgrade -y; wget https://github.com/mikamito998/proot-setup/raw/main/xfce4.sh ; bash xfce4.sh ; rm xfce4.sh
 ```
 ## 3. Install box86/box64
 #### Stable 8.0.2 (Recommended)
@@ -41,13 +40,13 @@ source ~/.bashrc
 ```
 ## 5. Firefox
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm --force firefox.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/firefox.sh; chmod +x firefox.sh; ./firefox.sh; rm firefox.sh
 ```
 ## 6. Chrome
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm --force chromium.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/chromium.sh; chmod +x chromium.sh; ./chromium.sh; rm chromium.sh
 ```
 ## 7. LibreOffice
 ```
-wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm --force libreoffice.sh
+wget https://raw.githubusercontent.com/mikamito998/ubuntu-termux/main/app/libreoffice.sh; chmod +x libreoffice.sh; ./libreoffice.sh; rm libreoffice.sh
 ```
