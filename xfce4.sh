@@ -2,11 +2,11 @@
 set -e
 
 apt update && apt upgrade -y
-apt install apt-utils gnupg gnupg1 gnupg2 software-properties-common -y # Dependencies
+apt install -y sudo nano wget git tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra
+apt install apt-utils gnupg gnupg1 gnupg2 software-properties-common -y
 apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
-apt install -y sudo nano wget git tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra
 apt install -y xfce4 xfce4-terminal --no-install-recommends --no-install-suggests
 # Fix
 apt clean && apt autoremove -y
