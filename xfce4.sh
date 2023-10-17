@@ -2,7 +2,7 @@
 set -e
 
 apt update && apt upgrade -y
-apt install -y sudo nano wget git zip unzip tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
+apt install -y sudo nano wget tzdata dbus-x11 tigervnc-standalone-server adwaita-icon-theme-full gnome-themes-extra --no-install-recommends --no-install-suggests
 apt install udisks2 -y
 echo " " > /var/lib/dpkg/info/udisks2.postinst
 apt-mark hold udisks2
